@@ -34,8 +34,6 @@ namespace AlgorithmPracticeSumOfAllTheMultiplesOfinputNums
                 "sum of all the multiples of the first inserted number and the " +
                 "second inserted number, please, insert the first number and press the enter: ");
             var firstInput = Int32.Parse(Console.ReadLine());
-            if (firstInput == null)
-                throw new ArgumentNullException();
             Console.WriteLine("Please insert the second number and press the enter again: ");
             var secondInput = Int32.Parse(Console.ReadLine());
             Console.WriteLine("please insert the value here and for the last time press the enter: ");
