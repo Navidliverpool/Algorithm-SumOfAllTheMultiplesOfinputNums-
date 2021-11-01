@@ -13,7 +13,10 @@ namespace AlgorithmPracticeSumOfAllTheMultiplesOfinputNums
                 {
                     count += i;
                 }
-            }
+                else if(i % firstInt == 0 && i % secondInt != 0)
+                {
+                    count += i;
+                }            }
         }
     }
 
