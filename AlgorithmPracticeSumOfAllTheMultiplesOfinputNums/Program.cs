@@ -31,6 +31,10 @@ namespace AlgorithmPracticeSumOfAllTheMultiplesOfinputNums
         static void Main(string[] args)
         {
             Console.WriteLine(Kata.Calculation(3,5,10));
+            Console.WriteLine("To calculate the " +
+                "sum of all the multiples of the first inserted number and the " +
+                "second one, insert the first number, please: ");
+
         }
     }
 }
