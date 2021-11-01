@@ -32,11 +32,11 @@ namespace AlgorithmPracticeSumOfAllTheMultiplesOfinputNums
         {
             Console.WriteLine("To calculate the " +
                 "sum of all the multiples of the first inserted number and the " +
-                "second one, insert the first number, please: ");
+                "second inserted number, please, insert the first number and press the enter: ");
             var firstInput = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Please insert the second number:");
+            Console.WriteLine("Please insert the second number and press the enter again: ");
             var secondInput = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("please insert the value: ");
+            Console.WriteLine("please insert the value here and press the enter for the last time: ");
             var thirdInput = Int32.Parse(Console.ReadLine());
             Console.WriteLine("The result is: {0}", 
                 Kata.Calculation(firstInput, secondInput, thirdInput));
