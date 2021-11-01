@@ -9,7 +9,10 @@ namespace AlgorithmPracticeSumOfAllTheMultiplesOfinputNums
             int count = 0;
             for(int i = 0; i < value; i++)
             {
-
+                if(i % firstInt == 0 || i % secondInt == 0)
+                {
+                    count += i;
+                }
             }
         }
     }
