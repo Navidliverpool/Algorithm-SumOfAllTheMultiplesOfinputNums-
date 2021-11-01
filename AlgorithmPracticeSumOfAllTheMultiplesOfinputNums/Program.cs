@@ -36,7 +36,10 @@ namespace AlgorithmPracticeSumOfAllTheMultiplesOfinputNums
             var firstInput = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Please insert the second number:");
             var secondInput = Int32.Parse(Console.ReadLine());
-            Console.WriteLine(Kata.Calculation(3, 5, 10));
+            Console.WriteLine("please insert the value: ");
+            var thirdInput = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("The result is: {0}", 
+                Kata.Calculation(firstInput, secondInput, thirdInput));
         }
     }
 }
