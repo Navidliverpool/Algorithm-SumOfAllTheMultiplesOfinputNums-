@@ -4,7 +4,7 @@ namespace AlgorithmPracticeSumOfAllTheMultiplesOfinputNums
 {
     public static class Kata
     {
-        public static void Calculation(int firstInt, int secondInt, int value)
+        public static int Calculation(int firstInt, int secondInt, int value)
         {
             int count = 0;
             for (int i = 0; i < value; i++)
@@ -22,6 +22,7 @@ namespace AlgorithmPracticeSumOfAllTheMultiplesOfinputNums
                     count += i;
                 }
             }
+            return count;
         }
     }
 
