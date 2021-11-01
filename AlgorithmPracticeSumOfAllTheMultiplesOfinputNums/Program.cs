@@ -30,7 +30,7 @@ namespace AlgorithmPracticeSumOfAllTheMultiplesOfinputNums
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine(Kata.Calculation(3,5,10));
         }
     }
 }
